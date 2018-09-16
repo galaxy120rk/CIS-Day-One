@@ -467,3 +467,63 @@ table a, #comments a{background-color:inherit;}
 .grid-item{
     background: red;
 }
+
+
+/* Book start here
+--------------------------------------------------------------------------------------------------------------- */
+#gallery{
+    display: grid;
+    grid-template-columns: 155px 155px 155px 155px 155px;
+    grid-column-gap: 45px;
+    grid-row-gap: 80px;
+    justify-content: center;
+}
+.book1{
+    border: 1px solid gray;
+    display: grid;
+    height: 335px;
+    grid-template-rows: 220px 90px 40px;
+}
+.btitle{}
+.bdload{
+    background: gray;
+}
+#gallery a{
+    background: tomato;
+    padding: 5px 43px;
+    color: white;
+}
+#gallery a:hover{
+    background: orange;
+    padding: 5px 43px;
+    color: black;
+}
+
+#gallery p, a{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+
+
+
+@media only screen and (max-width: 420px) {
+    #gallery{grid-template-columns: 155px;}
+}
+@media only screen and (min-width: 420px) {
+    #gallery{grid-template-columns: 155px 155px;}
+}
+@media only screen and (min-width: 650px) {
+    #gallery{grid-template-columns: 155px 155px;}
+}
+@media only screen and (min-width: 750px) {
+    #gallery{grid-template-columns: 155px 155px 155px;}
+}
+@media only screen and (min-width: 900px) {
+    #gallery{grid-template-columns: 155px 155px 155px 155px;}
+
+}@media only screen and (min-width: 978px) {
+    #gallery{grid-template-columns: 155px 155px 155px 155px 155px;}
+}
