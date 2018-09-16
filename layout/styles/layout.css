@@ -281,7 +281,9 @@ input:focus, textarea:focus, *:required:focus{border-color:#6677BC;}
 
 /* Rows */
 .row0, .row0 a{color:#CBCBCB; background-color:#000000; border-color:rgba(255,255,255,.2);}
-.row1{color:#FFFFFF; background-color:rgba(0,0,0,0);}
+.row1{color:#FFFFFF; background-color:rgba(0,0,0,.2);;
+        min-height: 190px;
+}
 .row2, .row2 a{}
 .row3{color:#474747; background-color:#FFFFFF;}
 .row4{color:#CBCBCB; background-color:#14263b;}
@@ -435,6 +437,12 @@ table a, #comments a{background-color:inherit;}
 }
 
 
+
+
+
+
+
+
 /* Other
 --------------------------------------------------------------------------------------------------------------- */
 @media screen and (max-width:650px){
@@ -449,4 +457,13 @@ table a, #comments a{background-color:inherit;}
 
 	#pageintro li article{max-width:none; width:100%;}
 	#pageintro li .heading{font-size:1.6rem;}
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+.grid-item{
+    background: red;
 }
