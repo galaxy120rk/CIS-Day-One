@@ -479,12 +479,18 @@ table a, #comments a{background-color:inherit;}
     justify-content: center;
 }
 .book1{
-    border: 1px solid gray;
     display: grid;
-    height: 335px;
-    grid-template-rows: 220px 90px 40px;
+    height: 315px;
+    grid-template-rows: 220px 70px 40px;
 }
-.btitle{}
+.bcover{
+    border: 2px solid tomato;
+    box-sizing: border-box;
+}
+.btitle{
+    border: 2px solid tomato;
+    border-top: 0px;
+}
 .bdload{
     background: gray;
 }
@@ -499,12 +505,12 @@ table a, #comments a{background-color:inherit;}
     color: black;
 }
 
+
 #gallery p, a{
     margin: 0;
-    padding: 0;
+    padding: 2;
     text-align: center;
 }
-
 
 
 
