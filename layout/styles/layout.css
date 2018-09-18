@@ -113,7 +113,7 @@
 /* Comments */
 #comments ul{margin:0 0 40px 0; padding:0; list-style:none;}
 #comments li{margin:0 0 10px 0; padding:15px;}
-#comments .avatar{float:right; margin:0 0 10px 10px; padding:3px; border:1px solid;}
+#comments .avatar{float:right; margin:0 0 10px 10px; padding:3px;}
 #comments address{font-weight:bold;}
 #comments time{font-size:smaller;}
 #comments .comcont{display:block; margin:0; padding:0;}
@@ -512,8 +512,14 @@ table a, #comments a{background-color:inherit;}
     text-align: center;
 }
 
-
-
+.blog-post{
+    border-bottom: 1px solid gray;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+}
+.sdb_holder a{
+    text-align: justify;
+}
 
 @media only screen and (max-width: 420px) {
     #gallery{grid-template-columns: 155px;}
