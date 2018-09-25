@@ -484,25 +484,25 @@ table a, #comments a{background-color:inherit;}
     grid-template-rows: 220px 70px 40px;
 }
 .bcover{
-    border: 2px solid tomato;
+    border: 2px solid #6677bc;
     box-sizing: border-box;
 }
 .btitle{
-    border: 2px solid tomato;
+    border: 2px solid #6677bc;
     border-top: 0px;
 }
 .bdload{
     background: gray;
 }
 #gallery a{
-    background: tomato;
+    background: #6677bc;
     padding: 5px 43px;
     color: white;
 }
 #gallery a:hover{
-    background: orange;
+    background: #0a1a2e;
     padding: 5px 43px;
-    color: black;
+    color: white;
 }
 
 
@@ -520,6 +520,7 @@ table a, #comments a{background-color:inherit;}
 .sdb_holder a{
     text-align: justify;
 }
+
 
 @media only screen and (max-width: 420px) {
     #gallery{grid-template-columns: 155px;}
