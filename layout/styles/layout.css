@@ -489,8 +489,17 @@ table a, #comments a{background-color:inherit;}
     box-sizing: border-box;
 }
 .btitle{
+    display: grid;
+    justify-items: center;
+    align-items: center;
     border: 2px solid #6677bc;
     border-top: 0px;
+}
+.txtcntr{
+    display: flex;
+}
+.txtcntr p{
+    margin: auto;
 }
 .bdload{
     background: gray;
@@ -506,17 +515,14 @@ table a, #comments a{background-color:inherit;}
     color: white;
 }
 
-
 #gallery p, a{
     margin: 0;
     padding: 2;
     text-align: center;
 }
-
-.blog-post{
-    border-bottom: 1px solid gray;
+.clrr .blog-post{
     margin-bottom: 40px;
-    padding-bottom: 20px;
+    padding: 20px;
 }
 .sdb_holder a{
     text-align: justify;
@@ -528,13 +534,23 @@ main .bissoy{
     display: block;
     background: white;
     padding-bottom: 20px;
-
 }
 .bissoy h6{
     text-align: center;
     color: black;
 }
 .first{}
+.clrr{
+    padding-bottom: 100px;
+    border-bottom: 1px solid gray;
+    border-radius: 20px;
+}
+.clrr:nth-child(odd) {
+    background: #eeffea;
+}
+.clrr:nth-child(even) {
+    background: #f6f8fd;
+}
 .cclr{}
 .htitle{
     text-align: center;
@@ -563,8 +579,38 @@ main .bissoy{
     border-radius: 5px;
 }
 .htitle{}
+.section-gap{
+    padding: 100px 0px;
+}
+.scrollable a{
+    color: gray;
+    padding: 2px 10px;
+    border: 1px solid gray;
+    border-radius: 5px; 
+}
+.scrollable a:hover{
+    color: #2b9dff;
+    padding: 2px 10px;
+    border: 1px solid #2b9dff;
+    border-radius: 5px; 
+}
 
-
+#hbtm{
+    display: grid;
+    justify-content: center;
+    align-items: end;
+}
+#hbtm ul li{
+    float: left;
+    list-style-type: none;
+}
+#hbtm ul li a{
+    margin: 10px;
+    padding: 10px 20px;
+    border: 2px solid white;
+    color: white;
+    border-radius: 5px;
+}
 
 @media only screen and (max-width: 420px) {
     #gallery{grid-template-columns: 155px;}
